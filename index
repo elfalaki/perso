@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Pédagogique - Prof. Mohammed El Falaki</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Bienvenue sur le site pédagogique de Prof. Mohammed El Falaki</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#lectures">Cours</a></li>
+                <li><a href="#assignments">Exercices</a></li>
+                <li><a href="#resources">Ressources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Accueil</h2>
+            <p>Ce site contient toutes les informations relatives aux cours de mécanique quantique pour les étudiants de master. Vous trouverez ici les notes de cours, les exercices, ainsi que des ressources complémentaires.</p>
+        </section>
+
+        <!-- Lectures Section -->
+        <section id="lectures">
+            <h2>Cours</h2>
+            <ul>
+                <li><a href="cours/chapter1.pdf" target="_blank">Chapitre 1: Introduction à la mécanique quantique</a></li>
+                <li><a href="cours/chapter2.pdf" target="_blank">Chapitre 2: Particules identiques et statistique quantique</a></li>
+                <!-- Add more lectures as needed -->
+            </ul>
+        </section>
+
+        <!-- Assignments Section -->
+        <section id="assignments">
+            <h2>Exercices</h2>
+            <ul>
+                <li><a href="exercises/exercise1.pdf" target="_blank">Exercice 1: Résolution des équations de Schrödinger</a></li>
+                <li><a href="exercises/exercise2.pdf" target="_blank">Exercice 2: Particules identiques et bosons</a></li>
+                <!-- Add more exercises -->
+            </ul>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources">
+            <h2>Ressources</h2>
+            <p>Voici quelques liens vers des ressources utiles :</p>
+            <ul>
+                <li><a href="https://arxiv.org" target="_blank">ArXiv - Articles scientifiques</a></li>
+                <li><a href="https://www.quantummechanics.org" target="_blank">Quantum Mechanics - Tutoriels en ligne</a></li>
+                <!-- Add more resources -->
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Si vous avez des questions, vous pouvez me contacter par email : <a href="mailto:mohammed.falaki@universite.com">mohammed.falaki@universite.com</a>.</p>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Prof. Mohammed El Falaki. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
