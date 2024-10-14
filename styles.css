@@ -19,6 +19,9 @@ header {
     color: white;
     padding: 30px 0;
     text-align: center;
+    height: 150px; /* You can adjust this value */
+            background-color: #f5f5f5; /* Example background color */
+            display: flex;
 }
 
 header h1 {
