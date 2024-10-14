@@ -11,6 +11,16 @@ body {
     padding: 20px;
     border-radius: 10px; /* Optional rounded corners */
 }
+.course-section1 {
+    background-color: #d0e4f7; /* Light blue background */
+    padding: 20px;
+    border-radius: 10px; /* Optional rounded corners */
+}
+.course-section2 {
+    background-color: #e6f7e0; /* Light blue background */
+    padding: 20px;
+    border-radius: 10px; /* Optional rounded corners */
+}
 .container {
     display: flex;
     flex-direction: column;
