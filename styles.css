@@ -34,7 +34,11 @@ header h2 {
     font-size: 16px;
     font-weight: lighter;
 }
-
+header h3 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: lighter;
+}
 /* Navigation */
 nav {
     background-color: #333;
