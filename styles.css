@@ -72,6 +72,11 @@ header h3 {
     font-size: 12px;
     font-weight: lighter;
 }
+header h4 {
+    margin: 0;
+    font-size: 10px;
+    font-weight: lighter;
+}
 /* Navigation */
 nav {
     background-color: #333;
