@@ -6,12 +6,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
-table {
-    width: 100%;  /* Table takes the full width of its container */
-    max-width: 100%;  /* Prevents the table from exceeding its container width */
-    border-collapse: collapse;  /* Ensures borders are shared between cells */
-    margin: 0 auto;  /* Centers the table in the container */
-}
+
 .course-section {
     background-color: #f0f4f7; /* Light blue background */
     padding: 20px;
