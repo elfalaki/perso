@@ -144,3 +144,18 @@ footer {
 footer p {
     margin: 0;
 }
+.course-section, .sidebar {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.course-section {
+    width: 65%; /* Ajustez selon l'espace souhaité */
+    margin-right: 2%;
+}
+
+.sidebar {
+    width: 30%; /* Ajustez selon l'espace souhaité */
+    border-left: 1px solid #ddd; /* Optionnel: bordure pour séparer visuellement */
+    padding-left: 15px;
+}
