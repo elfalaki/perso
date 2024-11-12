@@ -150,12 +150,12 @@ footer p {
 }
 
 .course-section {
-    width: 50%; /* Ajustez selon l'espace souhaité */
+    width: 40%; /* Ajustez selon l'espace souhaité */
     margin-right: 2%;
 }
 
 .sidebar {
-    width: 50%; /* Ajustez selon l'espace souhaité */
+    width: 60%; /* Ajustez selon l'espace souhaité */
     border-left: 1px solid #ddd; /* Optionnel: bordure pour séparer visuellement */
     padding-left: 15px;
 }
