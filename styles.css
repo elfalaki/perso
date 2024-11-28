@@ -1,4 +1,14 @@
 /* General Styles */
+header {
+    position: fixed; /* Fige l'en-tête */
+    top: 0; /* Positionne l'en-tête en haut */
+    left: 0; /* Positionne l'en-tête à gauche */
+    width: 100%; /* L'en-tête occupe toute la largeur de la page */
+    background-color: #f9f9f9; /* Couleur de fond de l'en-tête */
+    border-bottom: 2px solid #ddd; /* Ligne sous l'en-tête */
+    z-index: 1000; /* Assure que l'en-tête est au-dessus du contenu */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
