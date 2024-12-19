@@ -1,4 +1,29 @@
 /* General Styles */
+/* Par défaut : styles pour mobile */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  width: 100%;
+  padding: 10px;
+}
+
+/* Pour tablettes */
+@media (min-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}
+
+/* Pour grands écrans */
+@media (min-width: 1024px) {
+  .container {
+    width: 70%;
+  }
+}
 
 body {
     font-family: Arial, sans-serif;
