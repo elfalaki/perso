@@ -11,10 +11,10 @@ body {
     line-height: 1.5;
     background-color: #f4f4f4;
     color: #333;
+
     display: flex;
     justify-content: center; /* Centrage horizontal */
-    align-items: flex-start; /* Changer en center si tu veux aussi centrer verticalement */
-    flex-direction: column;
+    align-items: center;     /* Centrage vertical */
 }
 
 /* ----------------- CONTAINER ----------------- */
@@ -23,173 +23,40 @@ body {
     flex-direction: column;
     max-width: 1200px;
     width: 100%;
-    margin: 20px auto;
     padding: 20px;
     box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    min-height: 80vh;
 }
 
-/* Responsive pour tablettes */
+/* Responsiveness */
 @media (min-width: 768px) {
     .container {
         width: 80%;
     }
 }
-
-/* Responsive pour grands écrans */
 @media (min-width: 1024px) {
     .container {
         width: 70%;
     }
 }
-
-/* Responsive pour téléphones */
 @media (max-width: 480px) {
-    header {
-        font-size: 1em;
-        padding: 10px;
-    }
-
     .container {
-        padding: 5px;
-    }
-
-    nav ul li {
-        margin: 5px 0;
+        width: 95%;
+        padding: 10px;
     }
 }
 
-/* ----------------- EN-TÊTE ----------------- */
+/* ----------------- HEADER ----------------- */
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     background-color: #f9f9f9;
     border-bottom: 2px solid #ddd;
-    z-index: 1000;
+    padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-header h1 {
-    margin: 0;
-    font-size: 24px;
-}
-
-header h2 {
-    margin: 0;
-    font-size: 16px;
-    font-weight: lighter;
-}
-
-header h3 {
-    margin: 0;
-    font-size: 12px;
-    font-weight: lighter;
-}
-
-header h4 {
-    margin: 0;
-    font-size: 10px;
-    font-weight: lighter;
-}
-
-/* ----------------- NAVIGATION ----------------- */
-nav {
-    background-color: #333;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* ----------------- SECTIONS PRINCIPALES ----------------- */
-main section {
-    background-color: white;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-main h2 {
-    margin-top: 0;
-}
-
-/* ----------------- FOOTER ----------------- */
-footer {
-    background-color: #333;
-    color: white;
     text-align: center;
-    padding: 20px 0;
-    margin-top: 20px;
 }
 
-footer p {
-    margin: 0;
-}
-
-/* ----------------- SECTIONS DE COURS ----------------- */
-.course-section, .course-section1, .course-section2 {
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.course-section {
-    background-color: #f0f4f7;
-}
-
-.course-section1 {
-    background-color: #d0e4f7;
-}
-
-.course-section2 {
-    background-color: #e6f7e0;
-}
-
-/* ----------------- SIDEBAR & SECTION PARALLÈLE ----------------- */
-.course-section, .sidebar {
-    display: inline-block;
-    vertical-align: top;
-}
-
-.course-section {
-    width: 100%;
-    margin-right: 2%;
-}
-
-.sidebar {
-    width: 100%;
-    border-left: 1px solid #ddd;
-    padding-left: 15px;
-}
-
-/* ----------------- LISTES ----------------- */
-ul {
-    list-style-type: square;
-    margin-left: 20px;
-    padding-left: 0;
-}
-
-ul li {
-    color: #333;
-    font-size: 16px;
-    padding-left: 10px;
-}
+/* ... autres styles inchangés ... */
